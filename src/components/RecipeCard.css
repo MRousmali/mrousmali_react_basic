@@ -1,0 +1,31 @@
+.card-container {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    padding: 16px;
+    height: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 4px;
+    margin-left: 16px;
+}

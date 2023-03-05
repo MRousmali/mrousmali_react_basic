@@ -1,0 +1,28 @@
+.box {
+    max-width: 30rem;
+    margin: 1rem auto;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.heading {
+    margin-bottom: 1rem;
+}
+
+.ingredients {
+    margin-bottom: 1rem;
+}
+
+.link {
+    display: inline-block;
+    color: #3182ce;
+    text-decoration: none;
+}
+
